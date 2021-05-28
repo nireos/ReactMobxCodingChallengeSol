@@ -10,18 +10,18 @@ export default class UserModel {
     this.age = age;
   }
 
-  setName = (name: string) => {
-    this.name = name;
-  };
-  setAge = (age: number) => {
-    this.age = age;
-  };
+  set Name(value: string) {
+    this.name = value;
+  }
 
-  getName = (): string => {
+  set Age(value: number) {
+    this.age = value;
+  }
+  get Name(): string {
     return this.name;
-  };
+  }
 
-  getAge = (): number => {
+  get Age(): number {
     return this.age;
-  };
+  }
 }

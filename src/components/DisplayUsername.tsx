@@ -14,7 +14,7 @@ const DisplayUserName = () => {
           borderRadius={8}
           boxShadow="lg"
         >
-            {userStore.currentUser.getName() + userStore.currentUser.getAge()}
+            {userStore.currentUser.Name + userStore.currentUser.Age}
         </Box>
       </Box>
     </Flex>
